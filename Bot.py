@@ -32,7 +32,7 @@ spam_chats = []
 async def start(event):
     chat_id = event.chat_id
     if not event.is_private:
-        return await event.respond("ɪ ᴀᴍ ᴀʟɪᴠᴇ 🥺")
+        return await event.respond("ɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ 🥺")
     await event.reply(
         "━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ɪ ᴀᴍ ᴀᴊᴇᴇᴛ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴛʜᴇ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ\n✪ ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ ʀᴜɴ /help..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴏᴡɴᴇʀ    : [𓆩➤⃝✖‿✖•Ajͥeeͣtͫ](https://t.me/papa_bol_sakteho)\n┣★ ᴜᴘᴅᴀᴛᴇs › : [ᴀᴊᴇᴇᴛ ʜᴇʟᴘ](https://t.me/+e7-Qe-8uxTtiOWRl)┓\n┣★ ᴍᴀʜ ꜰᴇᴇʟɪɴɢꜱ › : [ ꜰᴇᴇʟɪɴɢꜱ ](https://t.me/about_ajeet)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/papa_bol_sakteho) ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━",
         link_preview=False,
@@ -48,8 +48,8 @@ async def start(event):
                 Button.url("✨ᴄʜᴀɴɴᴇʟ✨", "https://t.me/fuck_number"),
             ],
             [
-                Button.url("🥀ᴀʙᴏᴜᴛ🥀", "https://t.me/Kattai_massom"),
-                Button.url("😈ᴍʏ ᴅᴀᴅᴅʏ😈", "https://t.me/Jankari_Ki_Duniya"),
+                Button.url("🥀ᴀʙᴏᴜᴛ🥀", "https://t.me/about_ajeet"),
+                Button.url("😈ᴍʏ ᴅᴀᴅᴅʏ😈", "https://t.me/papa_bol_sakteho"),
             ],
         ),
     )
